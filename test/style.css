@@ -1,1 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rosario:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke
+}
+
+.mainhead {
+    text-align: center;
+    font-family: "Alex Brush";
+    font-weight: 800;
+    font-size: 90px;    
+}
+
+.submain {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+header{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    font-family: "Rosario";   
+}
+.nav-bar button{
+    margin: 0 10px;
+    border: none;
+    font-family: "Rosario";
+    font-size: 32px;
+}
+.nav-bar button a,.nav-bar a{
+    text-decoration: none;
+    color: rgb(233, 62, 162);
+}
+
+
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    left: 10px;
+    display: none;
+}
+.dropdown-content ul{
+    list-style: none;
+    font-size: 22px;
+    
+
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.nav-bar a:hover{
+    font-size: 105%;
+    text-decoration:underline;
+    color: slategrey;
+}
+
+
+
+.carousel-container {
+    margin: auto;
+    width: 1000px;
+    border:5px solid rgb(168, 100, 151);
+    overflow: hidden;
+        
+}
+
+.featured, .featured h2{
+    background-color: rgb(226, 161, 201);
+   margin: 40px 40px;
+    padding-top: 10px;
+    font-family: "Acme", sans-serif;
+    font-size: 30px;
+    border-radius: 50px;
+
+}
+
+.featured{
+    margin-top: 60px;
+}
+.testimony{
+    font-family: "Rosario";
+    padding-bottom: 20px;
+    font-weight: 700px;
+    font-size: 30px;
+
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 350px;
+}
+footer {
+   background-color: black; 
+   color: honeydew;
+   
+
+}
